@@ -29,12 +29,46 @@ $navbar-item-img-max-height: 3rem;
 // Import the rest of Bulma
 @import "../node_modules/bulma/bulma.sass";
 
+.is-bold {
+  h3 { color:$orange; }
+}
+
+.featured {
+
+  h3 { 
+    color: $purple; 
+    font-weight: bold; 
+    font-size: $size-4; 
+  }
+
+  figure {
+    margin-bottom: 1rem;
+  }
+
+  .column { text-align: center; }
+  .slug { 
+
+    padding-top: 1rem;
+    
+    span { 
+      margin-top: 3rem !important; 
+      color: $grey-light; 
+      font-size: $size-5;
+    } 
+
+  }
+}
+
 .columns.is-vcentered {
     -webkit-box-align: center;
        -ms-flex-align: center;
           align-items: center;
   }
 
-  .is-horizontal-right {
-    justify-content: right;
-  }
+.is-horizontal-right {
+  justify-content: right;
+}
+
+.has-text-purple {
+  color: $purple !important;
+}

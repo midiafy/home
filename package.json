@@ -12,6 +12,6 @@
   "scripts": {
     "css-build": "node-sass --omit-source-map-url sass/main.scss static/main.css",
     "css-watch": "yarn css-build -- --watch",
-    "start": "node server"
+    "dev": "node server"
   }
 }

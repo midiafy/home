@@ -6957,6 +6957,27 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.is-bold h3 {
+  color: #FF9052; }
+
+.featured h3 {
+  color: #8A4D76;
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+.featured figure {
+  margin-bottom: 1rem; }
+
+.featured .column {
+  text-align: center; }
+
+.featured .slug {
+  padding-top: 1rem; }
+  .featured .slug span {
+    margin-top: 3rem !important;
+    color: #D0D1CD;
+    font-size: 1.25rem; }
+
 .columns.is-vcentered {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6964,3 +6985,6 @@ label.panel-block {
 
 .is-horizontal-right {
   justify-content: right; }
+
+.has-text-purple {
+  color: #8A4D76 !important; }
