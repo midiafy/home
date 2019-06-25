@@ -1,0 +1,17 @@
+{
+  "name": "midiafy-soon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.7.5",
+    "connect": "^3.7.0",
+    "node-sass": "^4.12.0",
+    "serve-static": "^1.14.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/main.scss static/main.css",
+    "css-watch": "yarn css-build -- --watch",
+    "start": "node server"
+  }
+}
