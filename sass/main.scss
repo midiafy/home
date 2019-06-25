@@ -1,6 +1,8 @@
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+$footer-padding: 2rem 1rem 1rem 1rem;
+
 // Set your brand colors
 $green: #976DD0;
 $purple: #8A4D76;
@@ -31,6 +33,10 @@ $navbar-item-img-max-height: 3rem;
 
 .is-bold {
   h3 { color:$orange; }
+}
+
+.has-brand img {
+  max-width: 300px;
 }
 
 .featured {
