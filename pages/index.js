@@ -59,23 +59,34 @@ const Home = () => (
                 <h1 className="title is-size-1">
                   manter as redes sociais da sua empresa nunca foi tão fácil
                 </h1>
-                <h2 className="subtitle">
+                {/* <h2 className="subtitle">
                   selecione o seu ramo abaixo para publicar GRATUITAMENTE um
                   post PERSONALIZADO na sua página do Facebook. é grátis, fácil
                   e sem anúncios.
+                </h2> */}
+
+                <h2 className="subtitle">
+                  economize dinheiro com agências e freelancers.
+                  <br />
+                  todo o conteúdo das redes sociais já está pronto,
+                  PERSONALIZADO para sua empresa.
                 </h2>
                 <div className="field is-grouped">
                   <div className="control is-expanded">
                     <input
                       className="input is-large"
                       type="text"
-                      placeholder="consultório odontológico"
+                      placeholder="digite seu e-mail"
                     />
                   </div>
                   <div className="control">
-                    <a className="button is-info is-large">avançar</a>
+                    <a className="button is-info is-large">cadastrar</a>
                   </div>
                 </div>
+                <small>
+                  a midiafy está chegando. faça parte da revolução e tenha
+                  acesso grátis quando lançarmos.
+                </small>
               </div>
               <div className="column has-text-right">
                 <img
