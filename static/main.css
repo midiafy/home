@@ -6960,6 +6960,14 @@ label.panel-block {
 .is-bold h3 {
   color: #FF9052; }
 
+.is-heroimage {
+  background-image: url("../static/back.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #8A4D76; }
+
 .has-brand img {
   max-width: 300px; }
 
